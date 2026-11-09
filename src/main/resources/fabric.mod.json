@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "homevideo",
+  "version": "${version}",
+  "name": "Home Video 1994",
+  "description": "",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.homevideo.HomeVideo"],
+    "client": ["com.homevideo.client.HomeVideoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
